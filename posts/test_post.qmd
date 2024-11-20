@@ -1,0 +1,19 @@
+---
+title: "My First Post"
+author: "Your Name"
+date: "2024-11-10"
+categories: [Data Analysis, Visualization]
+description: "A quick overview of my first Quarto blog post."
+image: preview.jpg
+format:
+  html:
+    toc: true
+---
+
+Welcome to my first blog post! Here’s a simple visualization I made:
+
+```{r}
+library(ggplot2)
+
+ggplot(mtcars, aes(x = wt, y = mpg)) + geom_point()
+```
